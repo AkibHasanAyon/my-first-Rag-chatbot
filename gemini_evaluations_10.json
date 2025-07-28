@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is the primary health challenge discussed in the study?",
+    "ideal_answer": "The primary challenge is the detection and management of liver diseases in resource-limited areas like rural Bangladesh.",
+    "generated_answer": "The primary health challenge discussed in the study is liver disease in Bangladesh.",
+    "score": "0.5"
+  },
+  {
+    "question": "Why is liver disease a major concern in Bangladesh?",
+    "ideal_answer": "Due to high prevalence of Hepatitis B and C and limited access to healthcare in rural regions.",
+    "generated_answer": "Liver disease is a major concern in Bangladesh because it is one of the most densely populated countries in the world and faces significant challenges in managing the health of its population. With limited healthcare resources and a high burden of infectious and non-communicable diseases, liver disease has emerged as a major public health concern. The situation is made considerably worse by the increase in viral illnesses like Hepatitis B and C as well as the restricted availability of medical facilities.",
+    "score": "1"
+  },
+  {
+    "question": "What machine learning models were evaluated in the study?",
+    "ideal_answer": "Models include Decision Tree, Random Forest, k-NN, SVM, GBM, XGBoost, LightGBM, CatBoost, and EBM.",
+    "generated_answer": "I do not have enough information to answer that.",
+    "score": "0"
+  },
+  {
+    "question": "Which model performed the best after tuning?",
+    "ideal_answer": "Explainable Boosting Machine (EBM) with a test accuracy of 99.72%.",
+    "generated_answer": "Explainable Boosting Machine (EBM) achieved the highest accuracy.",
+    "score": "1"
+  },
+  {
+    "question": "What dataset was used in the study?",
+    "ideal_answer": "A publicly available liver disease dataset created by Abhishek Shrivastava.",
+    "generated_answer": "The study used a publicly available clinical dataset [8].",
+    "score": "0.5"
+  },
+  {
+    "question": "What clinical features were used in the dataset?",
+    "ideal_answer": "Features include age, gender, bilirubin levels, albumin, SGPT, SGOT, and alkphos.",
+    "generated_answer": "I do not have enough information to answer that.",
+    "score": "0"
+  },
+  {
+    "question": "What target variable was used for classification?",
+    "ideal_answer": "The target variable was 'Result', indicating presence or absence of liver disease.",
+    "generated_answer": "I do not have enough information to answer that.",
+    "score": "0"
+  },
+  {
+    "question": "Which scaler was used for normalization?",
+    "ideal_answer": "MinMaxScaler was used to scale values between 0 and 1.",
+    "generated_answer": "MinMaxScaler was used for normalization.",
+    "score": "1"
+  },
+  {
+    "question": "Which feature was dropped due to high correlation?",
+    "ideal_answer": "Direct Bilirubin was dropped due to high correlation with Total Bilirubin.",
+    "generated_answer": "Direct Bilirubin was identified as highly correlated with Total Bilirubin, and was dropped to improve model accuracy.",
+    "score": "1"
+  },
+  {
+    "question": "What technique was used to prevent overfitting?",
+    "ideal_answer": "Hyperparameter tuning and use of ensemble models.",
+    "generated_answer": "I do not have enough information to answer that.",
+    "score": "0"
+  }
+]

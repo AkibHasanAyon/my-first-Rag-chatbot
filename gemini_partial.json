@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is the primary health challenge discussed in the study?",
+    "answer": "The primary health challenge discussed in the study is liver disease in Bangladesh."
+  },
+  {
+    "question": "Why is liver disease a major concern in Bangladesh?",
+    "answer": "Liver disease is a major concern in Bangladesh because it is one of the most densely populated countries in the world and faces significant challenges in managing the health of its population. With limited healthcare resources and a high burden of infectious and non-communicable diseases, liver disease has emerged as a major public health concern. The situation is made considerably worse by the increase in viral illnesses like Hepatitis B and C as well as the restricted availability of medical facilities."
+  },
+  {
+    "question": "What machine learning models were evaluated in the study?",
+    "answer": "I do not have enough information to answer that."
+  },
+  {
+    "question": "Which model performed the best after tuning?",
+    "answer": "Explainable Boosting Machine (EBM) achieved the highest accuracy."
+  },
+  {
+    "question": "What dataset was used in the study?",
+    "answer": "The study used a publicly available clinical dataset [8]."
+  },
+  {
+    "question": "What clinical features were used in the dataset?",
+    "answer": "I do not have enough information to answer that."
+  },
+  {
+    "question": "What target variable was used for classification?",
+    "answer": "I do not have enough information to answer that."
+  },
+  {
+    "question": "Which scaler was used for normalization?",
+    "answer": "MinMaxScaler was used for normalization."
+  },
+  {
+    "question": "Which feature was dropped due to high correlation?",
+    "answer": "Direct Bilirubin was identified as highly correlated with Total Bilirubin, and was dropped to improve model accuracy."
+  },
+  {
+    "question": "What technique was used to prevent overfitting?",
+    "answer": "I do not have enough information to answer that."
+  }
+]

@@ -1,0 +1,138 @@
+[
+  {
+    "question": "What is the primary health challenge discussed in the study?",
+    "ideal_answer": "The primary challenge is the detection and management of liver diseases in resource-limited areas like rural Bangladesh."
+  },
+  {
+    "question": "Why is liver disease a major concern in Bangladesh?",
+    "ideal_answer": "Due to high prevalence of Hepatitis B and C and limited access to healthcare in rural regions."
+  },
+  {
+    "question": "What machine learning models were evaluated in the study?",
+    "ideal_answer": "Models include Decision Tree, Random Forest, k-NN, SVM, GBM, XGBoost, LightGBM, CatBoost, and EBM."
+  },
+  {
+    "question": "Which model performed the best after tuning?",
+    "ideal_answer": "Explainable Boosting Machine (EBM) with a test accuracy of 99.72%."
+  },
+  {
+    "question": "What dataset was used in the study?",
+    "ideal_answer": "A publicly available liver disease dataset created by Abhishek Shrivastava."
+  },
+  {
+    "question": "What clinical features were used in the dataset?",
+    "ideal_answer": "Features include age, gender, bilirubin levels, albumin, SGPT, SGOT, and alkphos."
+  },
+  {
+    "question": "What target variable was used for classification?",
+    "ideal_answer": "The target variable was 'Result', indicating presence or absence of liver disease."
+  },
+  {
+    "question": "Which scaler was used for normalization?",
+    "ideal_answer": "MinMaxScaler was used to scale values between 0 and 1."
+  },
+  {
+    "question": "Which feature was dropped due to high correlation?",
+    "ideal_answer": "Direct Bilirubin was dropped due to high correlation with Total Bilirubin."
+  },
+  {
+    "question": "What technique was used to prevent overfitting?",
+    "ideal_answer": "Hyperparameter tuning and use of ensemble models."
+  },
+  {
+    "question": "What is the role of Pearson's correlation in the study?",
+    "ideal_answer": "Used for feature selection by removing highly correlated variables."
+  },
+  {
+    "question": "What is the goal of hyperparameter tuning?",
+    "ideal_answer": "To improve accuracy and reduce overfitting."
+  },
+  {
+    "question": "What evaluation metrics were used?",
+    "ideal_answer": "Accuracy, Precision, Recall, F1 Score, and Confusion Matrix."
+  },
+  {
+    "question": "What is F1 score?",
+    "ideal_answer": "The harmonic mean of precision and recall."
+  },
+  {
+    "question": "What model achieved the lowest test accuracy?",
+    "ideal_answer": "Support Vector Machine (SVM)."
+  },
+  {
+    "question": "What is the accuracy of XGBoost after tuning?",
+    "ideal_answer": "99.51%."
+  },
+  {
+    "question": "What does EBM stand for?",
+    "ideal_answer": "Explainable Boosting Machine."
+  },
+  {
+    "question": "Why is explainability important in healthcare AI?",
+    "ideal_answer": "So healthcare professionals can understand and trust model predictions."
+  },
+  {
+    "question": "What was the focus of the study's preprocessing?",
+    "ideal_answer": "Data cleaning, normalization, and balancing."
+  },
+  {
+    "question": "Why was MinMaxScaler used?",
+    "ideal_answer": "To scale features to the same range, improving model performance."
+  },
+  {
+    "question": "Which model was the fastest to train?",
+    "ideal_answer": "Decision Tree was simple and fast but prone to overfitting."
+  },
+  {
+    "question": "What does k-NN use to make predictions?",
+    "ideal_answer": "The majority class of its k nearest neighbors."
+  },
+  {
+    "question": "What algorithm performs boosting in a sequential manner?",
+    "ideal_answer": "Gradient Boosting Machines (GBM)."
+  },
+  {
+    "question": "Why is XGBoost considered efficient?",
+    "ideal_answer": "It uses parallel processing and regularization to reduce overfitting."
+  },
+  {
+    "question": "What is one downside of SVM mentioned?",
+    "ideal_answer": "It had lower accuracy and didn't generalize well on this dataset."
+  },
+  {
+    "question": "Which algorithm uses majority voting from multiple trees?",
+    "ideal_answer": "Random Forest."
+  },
+  {
+    "question": "Which dataset characteristic made EBM a good choice?",
+    "ideal_answer": "Its ability to provide transparency and interpretability."
+  },
+  {
+    "question": "What is the potential application of this system?",
+    "ideal_answer": "Early liver disease detection in low-resource environments like rural Bangladesh."
+  },
+  {
+    "question": "What is the significance of imbalanced class handling?",
+    "ideal_answer": "To ensure the model doesn't bias toward the majority class."
+  },
+  {
+    "question": "Why were multiple algorithms tested?",
+    "ideal_answer": "To compare accuracy and computational efficiency."
+  },
+  {
+    "question": "What role did expert feedback play in future plans?",
+    "ideal_answer": "It would enhance real-world application of the system."
+  },
+  {
+    "question": "What role does EBM play in model interpretability?",
+    "ideal_answer": "It explains how individual features influence predictions."
+  },
+  {
+    "question": "Why is dataset quality important for model training?",
+    "ideal_answer": "Better quality ensures more accurate and reliable predictions."
+  },
+  {
+    "question": "Which algorithms were part of ensemble learning in the study?",
+    "ideal_answer": "Random Forest, Gradient Boosting, XGBoost, LightGBM, and CatBoost."
+  }
+]
