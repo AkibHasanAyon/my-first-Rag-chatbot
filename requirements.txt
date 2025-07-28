@@ -6,3 +6,4 @@ tqdm
 google-cloud-aiplatform
 protobuf
 python-dotenv
+google-generativeai
